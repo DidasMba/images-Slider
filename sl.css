@@ -1,12 +1,18 @@
-.slider-container{
+.slider-container {
     width: 100%;
-    overflow : hidden;
-}
-
-.slider {
-    list-style: node;
+    overflow: hidden;
+  }
+  
+  .slider {
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
+  }
+  
+  .slider li {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+  
