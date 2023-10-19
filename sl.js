@@ -35,5 +35,10 @@ showSlide(currentIndex);
 
 
 
-const essaie = getElementsById("para");
-console.log("essaie");
+function changeColor(newcolor){
+  const elem = document.getElementById("para");
+  elem.style.color = newcolor;
+
+  }
+
+
