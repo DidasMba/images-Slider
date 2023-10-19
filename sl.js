@@ -42,3 +42,10 @@ function changeColor(newcolor){
   }
 
 
+const parentDOM = document.getElementById("parent-id");
+//console.log(parentDOM);
+
+const test1 = document.getElementById("test1");
+//console.log(test1);
+
+test1.style.color = 'red';
