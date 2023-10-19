@@ -35,7 +35,7 @@ showSlide(currentIndex);
 
 
 
-function changeColor(newcolor){
+/*function changeColor(newcolor){
   const elem = document.getElementById("para");
   elem.style.color = newcolor;
 
@@ -49,3 +49,13 @@ const test1 = document.getElementById("test1");
 //console.log(test1);
 
 test1.style.color = 'red';
+
+
+const element = document.createElement("div");
+element.id = "testGood";
+const el = document.getElementById("testGood");*/
+
+const parentDOM = document.getElementById("parent-id");;
+const test = parentDOM.getElementsByClassName("test");
+
+console.log(test);
