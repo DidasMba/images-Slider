@@ -63,6 +63,32 @@ const test = parentDOM.getElementsByClassName("test");
 const testTarget = parentDOM.getElementsByClassName("test")[0]; 
 console.log(testTarget);*/
 
-const title = document.getElementById('main-heading');
+//const title = document.getElementById('main-heading');
 
-console.log(title);
+//console.log(title);
+
+//const listItms = document.getElementsByClassName('list-items');
+
+//console.log(listItms);
+
+//const listItms = document.getElementsByTagName('li');
+
+//console.log(listItms);
+
+
+//const container = document.querySelector('div');
+//console.log(container);
+
+const listItms = document.querySelectorAll('.list-items');
+
+for(i = 0; i < listItms.length; i++){
+  listItms[i].style.fontSize = '10rem';
+}
+
+
+console.log(listItms);
+
+
+
+
+
