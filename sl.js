@@ -53,9 +53,16 @@ test1.style.color = 'red';
 
 const element = document.createElement("div");
 element.id = "testGood";
-const el = document.getElementById("testGood");*/
+const el = document.getElementById("testGood");
 
 const parentDOM = document.getElementById("parent-id");;
 const test = parentDOM.getElementsByClassName("test");
 
-console.log(test);
+//console.log(test);
+//const testTarget = parentDOM.getElementsByClassName("test")[0];
+const testTarget = parentDOM.getElementsByClassName("test")[0]; 
+console.log(testTarget);*/
+
+const title = document.getElementById('main-heading');
+
+console.log(title);
